@@ -1,0 +1,7 @@
+Rajouter les filtres de formulaire & les variables utiles aux fonctions(*y compris entre les parenthèses) dans les controllers
+Faire les templates qui n'existent pas encore/vides 
+Faire du front
+MaJ routeur
+Try toutes les interfaces backend
+Faire le systeme de connexion
+Sortir le 1er index du temp

@@ -1,0 +1,78 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background: #f1f1f1;
+    position: fixed;
+}
+ul{
+    width: 100%;
+  text-align: center;
+
+}
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    list-style: none;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 0 20px;
+ 
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.btn-toggle-container{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.btn-toggle-container img{
+    width: 40px;
+}
+@media  screen and (max-width: 650px){
+    .btn-toggle-container{
+        display: block;
+    }
+ nav{
+    border-bottom: 3px solid #333;
+ }
+ ul{
+    position: relative;
+    top: 70px;
+    display: none;
+
+ }
+ nav ul li {
+    display: block;
+    background: #f1f1f1;
+    margin: 0px;
+
+ }
+ .liste-nav.active-menu{
+    display: block;
+ }
+}
+    
+
